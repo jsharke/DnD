@@ -1,16 +1,33 @@
+@font-face{
+	font-family: Vecna;
+	src: url(./font/Vecna.otf);
+}
 #mainpage{
-	background-image: url("stonebg1.jpg");
-	background-position: 50% 50%;
+	/*background-image: url("stonebg1.jpg");*/
+	background-color: rgb(110, 0, 0);
+	background-position: 60% 60%;
 	background-size: cover;
 }
 
-h1, h4, p{
+h1, h4{
+	font-family: Vecna;
+	font-weight: bold; 
 	text-align: center;
 	color: white;
 }
 
-
-
-p{
-	background-color: grey;
+#mainlink{
+	font-family: Vecna;
+	font-weight: bold;
+	text-align: center;
+	
+}
+a:link {
+	colour:white;
+}
+a:visited {
+	color: white;
+}
+a:active {
+	color:black;
 }
