@@ -14,28 +14,11 @@ a:active {
 #mainpage{
 	background-image: url("countryside.jpg");
 	/*background-color: rgb(110, 0, 0);*/
-	background-position: 60% 60%;
+	background-position: 65% 65%;
 	background-size: cover;
 	height: 100vh;
 }
 
-h1, h4{
-	font-family: Vecna;
-	font-weight: bold; 
-	text-align: center;
-	color: white;
-	/*-webkit-text-stroke: 0.01px black;*/
-	
-	
-}
-h1{
-	font-size: 5vw;
-	font-size: 5vh;
-}
-h4{
-	font-size: 2vw;
-	font-size: 2vh;
-}
 
 #mainlink{
 	font-family: Vecna;
@@ -52,4 +35,32 @@ h4{
 	background-position: 50% 50%;
 
 }
+.mainsigns{
+	width: 25%;
+	height: 10%;
+}
 
+#init{
+	transform: translate(150%, 105%);
+	display:block;
+}
+#npcs{
+	transform: translate(150%, 165%);
+	display:block;
+}
+#sums{
+	transform: translate(150%, 220%);
+	display:block;
+}
+#maps{
+	transform: translate(150%, 275%);
+	display:block;
+}
+#foes{
+	transform: translate(150%, 335%);
+	display:block;
+}
+#pcs{
+	transform: translate(150%, 390%);
+	display:block;
+}
