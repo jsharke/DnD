@@ -14,6 +14,10 @@ html {
 	font-family: immortal;
 	src: url(./font/IMMORTAL.ttf);
 }
+@font-face{
+	font-family: atlas;
+	src: url(./font/AtlasoftheMagi.ttf);
+}
 .title {
 
 	color: white;
@@ -35,7 +39,7 @@ html {
 	cursor: pointer;
 	
 	padding: 1% 1%;
-	font-size: 150%;
+	font-size: 250%;
 	font-family: vecna;
 
 }
@@ -48,7 +52,7 @@ html {
 	transition: max-height 0.2s ease-out;
 
 	font-family: immortal;
-	font-size: 100%;
+	font-size: 200%;
 }
 
 
