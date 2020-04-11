@@ -10,13 +10,13 @@
 </header>
 <body>
 	
-	<button type="button" class="collapsible">
-		<p class= "seshTitle">Session 1: Fuckin' Gnomes</p>
-		<p class= "seshDate">(DATE)</p>
-	</button>
-	<div> class = "content">
+	<button type="button" class="collapsible">Session 1: Fuckin' Gnomes (DATE)</button>
+	<div class = "content">
 		<p>TEXT GOES HERE</p>
 	</div>
+
+
+
 
 
 	<div>
@@ -49,5 +49,21 @@
 	<div>
 		<p>Session 10: Payback</p>
 	</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>
