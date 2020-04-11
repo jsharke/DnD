@@ -1,12 +1,20 @@
 html {
-	background-color: grey;
+	background-image: url("./img/wood1.jpg");
+
+}
+@font-face{
+	font-family: Vecna;
+	src: url(./font/Vecna.otf);
 }
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-image: url("./img/parch1.png");
+  background-color: transparent;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  color: #0C283D;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 85%;
   border: none;
   text-align: left;
   outline: none;
@@ -30,11 +38,15 @@ html {
 }
 
 .content {
+  
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  margin-left: 10%;
+  background-image: url("./img/parch2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 

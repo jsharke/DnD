@@ -14,7 +14,7 @@ a:active {
 #mainpage{
 	background-image: url("./img/mountain1.jpg");
 	/*background-color: rgb(110, 0, 0);*/
-	background-position: 65% 65%;
+	background-position:70% 70%;
 	background-size: cover;
 	height: 100vh;
 }
