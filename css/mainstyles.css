@@ -12,7 +12,7 @@ a:active {
 	color:black;
 }
 #mainpage{
-	background-image: url("countryside.jpg");
+	background-image: url("./img/mountain1.jpg");
 	/*background-color: rgb(110, 0, 0);*/
 	background-position: 65% 65%;
 	background-size: cover;
@@ -29,7 +29,7 @@ a:active {
 }
 #div1{
 	height:100%;
-	background-image: url("signs.png");
+	background-image: url("./img/signs.png");
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -38,6 +38,7 @@ a:active {
 .mainsigns{
 	width: 25%;
 	height: 10%;
+
 }
 
 #init{

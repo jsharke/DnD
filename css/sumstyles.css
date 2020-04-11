@@ -1,0 +1,21 @@
+html {
+	background-color: grey;
+}
+.collapsible {
+	background-color: red;
+	cursor: pointer;
+	padding: 1%;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+.seshTitle{
+	float: left;
+	margin-left: 5%;
+}
+.seshDate{
+	float: right;
+	margin-right: 10%;
+}
+
