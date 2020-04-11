@@ -35,30 +35,26 @@ a:active {
 .mainsigns{
 	width: 25%;
 	height: 10%;
-
+	max-width:200px;
+	margin: auto;
+	display:block;
 }
 
 #init{
-	transform: translate(150%, 105%);
-	display:block;
+	transform:translateY(100%);
 }
 #npcs{
-	transform: translate(150%, 165%);
-	display:block;
+	transform:translateY(160%);
 }
 #sums{
-	transform: translate(150%, 220%);
-	display:block;
+	transform:translateY(215%);
 }
 #maps{
-	transform: translate(150%, 275%);
-	display:block;
+	transform:translateY(275%);
 }
-#foes{
-	transform: translate(150%, 335%);
-	display:block;
+#foes{	
+	transform:translateY(330%);
 }
 #pcs{
-	transform: translate(150%, 390%);
-	display:block;
+	transform:translateY(390%);
 }
