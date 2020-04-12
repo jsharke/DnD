@@ -1,15 +1,14 @@
 html{
 background: rgb(11,1,1);
-background: linear-gradient(180deg, rgba(11,1,1,1) 7%, rgba(121,9,9,1) 85%);
-background-size: contain;
+background: linear-gradient(180deg, rgba(11,1,1,1) 13%, rgba(101,9,9,1) 100%);
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 }
 .card{
-	display:block;
-	width: 60%;
-	margin: auto;
-	margin-bottom: 5%;
-}
-#id{
-	margin-top: 5%;
+	
+	
+	margin: 2%;
+	
 }
