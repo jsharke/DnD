@@ -14,10 +14,6 @@ html {
 	font-family: immortal;
 	src: url(./font/IMMORTAL.ttf);
 }
-@font-face{
-	font-family: atlas;
-	src: url(./font/AtlasoftheMagi.ttf);
-}
 .title {
 
 	color: white;
@@ -25,6 +21,7 @@ html {
 	
 	font-family: immortal;
 	font-size: 500%;
+	margin-top: 5%;
 	
 }
 
