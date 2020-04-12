@@ -21,17 +21,19 @@ html {
 	margin: 0;
 }
 .npcs {
-	padding: 5%;
-	font-size: 200%;
+	padding: 1%;
+	font-size: 250%;
 	text-align: center;
 	font-family: Vecna;
+	border: 5px solid #CC6600;
 	background-color: #FFEE99;
 	background-size: 50% auto;
+	border-radius: 25px;
+	width: 50%;
+	margin: auto;
+	max-width: 400px;
 }
 .divnpc{
-	background-color: #CC6600;
-	margin:auto;
-	width:40%;
-	max-width: 400px;
+	margin-bottom: 2%;
 	
 }
