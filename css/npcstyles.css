@@ -9,17 +9,18 @@
 }
 html {
 	background-image: url("./img/countryside.jpg");
-	background-position:40% 100%;
+	background-position:70% 70%;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 }
 .title {
 	text-align: center;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	
-	font-family: immortal;
+	font-family: Vecna;
 	font-size: 500%;
-	margin: 0;
+	
 }
 
 .divnpc{
@@ -31,34 +32,34 @@ html {
 }
 .collapsible {
 	padding: 1%;
-	font-size: 250%;
+	font-size: 350%;
 	text-align: center;
 	font-family: Vecna;
 	border: 5px solid #CC6600;
 	background-color: #FFEE99;
 	background-size: 50% auto;
 	border-radius: 25px;
-	width: 50%;
+	width: 65%;
 	margin: auto;
-	max-width: 400px;
+	max-width: 700px;
 
 	cursor: pointer;	
 }
 .content {
 	
-	font-size: 150%;
+	font-size: 300%;
 	text-align: center;
-	font-family: Vecna;
+	font-family: immortal;
 	
 	background-color: #FFEE99;
 	background-size: 50% auto;
 	border-radius: 25px;
-	width: 70%;
+	width: 90%;
 	margin: auto;
 	text-align: left;
 	
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-	
+
 }
