@@ -1,0 +1,45 @@
+@font-face{
+	font-family: Vecna;
+	src: url(./font/Vecna.otf);
+
+}
+@font-face{
+	font-family: immortal;
+	src: url(./font/IMMORTAL.ttf);
+}
+html{
+	background-image: url("./img/village1.jpg");
+	background-position:70% 70%;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+.mappage{
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+.title{
+	font-size: 300%;
+	font-family: immortal;
+	margin-bottom: 0;
+
+}
+.subtitle{
+	font-size: 200%;
+	font-family: Vecna;
+	margin-bottom: 0;
+	background-color: rgba(93, 206, 217, 0.3)
+	background-size: auto;
+}
+.mapblock{
+	display:block; 
+	text-align: center;
+}
+.playlist{
+	margin:1%;
+}
+.songblock{
+	display:block;
+	text-align: center;
+}
