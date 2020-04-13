@@ -4,19 +4,135 @@
 	<title>Citizens of Rozarria</title>
 </head>
 <header>
-	<p class="title" style="text-align: center";>Citizens of Rozarria</p>
-	<<link rel="stylesheet" href="./css/npcstyles.css">
+	<p class="title">Citizens of Rozarria</p>
+	<link rel="stylesheet" href="./css/npcstyles.css">
 </header>
 <body>
-	<div class="divnpc" href="erwh.html">
-		<p class="npcs">Vinny and Vanya Stroza</p>
-	</div>
+	
 	<div class="divnpc">
-		<p class="npcs">Barbosa</p>
+		<button type="button" class="collapsible">Vinny and Vanya Stroza</button>
+		<div class = "content">
+			<p class="description">A middle aged man and his young blonde daughter that the heroes befriended in the small village of Voltera. After the fall of Voltera, Vinny suggested the group came with him to Rozarria to look for work as his cousin, Hinno, works as a cobblemaker by the port. During the trip, Dabdoob learned that Vinny's wife had been taken by half-orcs.</p>
+		</div>
 	</div>
+	
+
 	<div class="divnpc">
-		<p class="npcs">The Broker</p>
+		<button type="button" class="collapsible">Captain Barbosa</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
 	</div>
+
+
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">The Broker</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
 	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Surva</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
+		</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Ekemon Paradas</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Butch</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
+	</div>	
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Allistor Cydonia</button>
+		<div class = "content">
+			<p class="description">
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Milithan</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Sinthian</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Pumat Sol</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">King Lucius Strongborn</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>
+
+	<div class="divnpc">
+		<button type="button" class="collapsible">Garosh aka Tempest</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>
+
+	<!--TEMPLATE
+	<div class="divnpc">
+		<button type="button" class="collapsible">NAME</button>
+		<div class = "content">
+			<p class="description"> TEXT
+			</p>
+		</div>
+	</div>-->
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </body>
 </html>

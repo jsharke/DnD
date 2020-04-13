@@ -15,12 +15,21 @@ html {
 }
 .title {
 	text-align: center;
+	margin-bottom: 2%;
 	
 	font-family: immortal;
 	font-size: 500%;
 	margin: 0;
 }
-.npcs {
+
+.divnpc{
+	margin-bottom: 2%;
+	text-align: center;
+}
+.description{
+	padding: 2%;
+}
+.collapsible {
 	padding: 1%;
 	font-size: 250%;
 	text-align: center;
@@ -32,8 +41,24 @@ html {
 	width: 50%;
 	margin: auto;
 	max-width: 400px;
+
+	cursor: pointer;	
 }
-.divnpc{
-	margin-bottom: 2%;
+.content {
+	
+	font-size: 150%;
+	text-align: center;
+	font-family: Vecna;
+	
+	background-color: #FFEE99;
+	background-size: 50% auto;
+	border-radius: 25px;
+	width: 70%;
+	margin: auto;
+	text-align: left;
+	
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 	
 }
