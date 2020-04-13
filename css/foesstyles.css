@@ -1,0 +1,74 @@
+@font-face{
+	font-family: Vecna;
+	src: url(./font/Vecna.otf);
+
+}
+@font-face{
+	font-family: immortal;
+	src: url(./font/IMMORTAL.ttf);
+}
+html{
+	background: rgb(11,1,1);
+	background: linear-gradient(180deg, rgba(11,1,1,1) 13%, rgba(87,52,99,1) 100%);
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.headtitle{
+	font-size: 350%; 
+	font-family: immortal; 
+	text-align: center;
+	margin-bottom: 0;
+	color: white;
+}
+.subtitle{
+	font-size: 250%; 
+	font-family: immortal; 
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: 0;
+	color: white;
+}
+.name{
+	font-size: 400%;
+	font-family: Vecna;
+	text-align: center;
+	color: white;
+	text-decoration: underline; 
+	margin-bottom: 1%;
+	margin-top: 0;
+
+}
+.description {
+	font-size: 200%;
+	font-family: immortal;
+	text-align: center;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	color: white;
+}
+.image{
+	width: 70%;
+	height: auto;
+	max-width: 600px;
+	margin:auto;
+	margin-top: 0;
+	margin-bottom: 2%;
+	display:block;
+	border-radius: 50px;
+}
+.entry{
+	background-color: #54101d;
+	width: 75%;
+	height: auto;
+	
+	display: block;
+	margin:auto;
+	padding: 2%;
+	border-radius: 50px;
+	margin-top: 5%;
+
+}
+h4{
+
+}
